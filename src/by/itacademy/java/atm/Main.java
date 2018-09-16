@@ -2,9 +2,6 @@ package by.itacademy.java.atm;
 
 public class Main {
     public static void main(String[] args) {
-        Atm atm = new Atm();
-        atm.addMoney(250);
-        atm.getMoney(150);
         Atm prior = new PriorAtm();
         prior.addMoney(450);
         prior.getMoney(250);
@@ -19,9 +16,9 @@ public class Main {
         System.out.println(belarus.total());
 
         Atm mtbank = new MtBankAtm();
-        belarus.addMoney(400);
-        belarus.getMoney(300);
-        belarus.display();
+        mtbank.addMoney(400);
+        mtbank.getMoney(300);
+        mtbank.display();
         System.out.println(mtbank.display());
         System.out.println(mtbank.total());
 
