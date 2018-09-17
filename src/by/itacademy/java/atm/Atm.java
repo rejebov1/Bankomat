@@ -1,6 +1,7 @@
 package by.itacademy.java.atm;
 
 public abstract class Atm implements Income, Outcome, VendorInfo, Balance {
+
     private int twenty = 0;
     private int fifty = 0;
     private int hundred = 0;
